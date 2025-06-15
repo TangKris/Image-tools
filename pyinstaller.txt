@@ -1,0 +1,23 @@
+pyinstaller --onedir --windowed --noconsole ^
+--add-data "models;models" ^
+--add-data "t1.ico;." ^
+--hidden-import=sklearn.utils._weight_vector ^
+--hidden-import=skimage.filters.rank.core_cy ^
+--hidden-import=cv2 ^
+--hidden-import=cv2.utils ^
+--hidden-import=cv2.cv2 ^
+--icon t1.ico ^
+--additional-hooks-dir=. ^
+Image-tools_v2.1.py
+
+pyinstaller --onedir ^
+--add-data "models;models" ^
+--add-data "t1.ico;." ^
+--hidden-import=sklearn.utils._weight_vector ^
+--hidden-import=skimage.filters.rank.core_cy ^
+--hidden-import=cv2 ^
+--hidden-import=cv2.utils ^
+--hidden-import=cv2.cv2 ^
+--icon t1.ico ^
+--additional-hooks-dir=. ^
+Image-tools_v2.1.py
