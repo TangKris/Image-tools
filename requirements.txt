@@ -1,0 +1,8 @@
+paddlepaddle
+paddleocr
+opencv-python
+PyMuPDF
+ttkbootstrap
+reportlab
+openpyxl
+requests
