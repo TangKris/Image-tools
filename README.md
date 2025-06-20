@@ -27,20 +27,6 @@
 - 支持检查更新功能，方便用户获取最新版本。
 
 ## 使用方法
-### 安装
-\`\`\`bash
-# 克隆仓库
-git clone https://github.com/TangKris/Image-tools.git
-# 进入项目目录
-cd Image-tools
-# 安装依赖
-pip install -r requirements.txt
-\`\`\`
-
-# 启动程序
-python Image-tools_v2.1.py
-\`\`\`
-
 ### 使用界面操作
 - **图片识别**：选择图片或 PDF 文件，设置优化选项，点击“开始识别”。
 - **图片转换**：选择转换类型，添加文件，点击“开始转换”。
