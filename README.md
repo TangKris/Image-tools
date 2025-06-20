@@ -129,5 +129,5 @@ Image-tools/
 
 ## 联系方式
 开发者：TangKris (小汤)  
-邮箱：[3398458131@example.com]  
+邮箱：[3398458131@qq.com]  
 GitHub：[https://github.com/TangKris](https://github.com/TangKris)
