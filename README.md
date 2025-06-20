@@ -97,16 +97,14 @@
 - 新增创建 Excel 写入功能。
 
 ## 项目结构
-\`\`\`
-Image-tools/\n
-├── Image-tools_v2.1.py  # 主程序文件\n
-├── models/              # 模型文件\n
-├── paddleocr/           # PaddleOCR 相关文件\n
-├── t1.ico               # 程序图标\n
-├── pyinstaller.txt      # PyInstaller 配置文件\n
-└── pyinstaller.txt   # 安装依赖库 \n
-└── README.md            # 项目说明文档\n
-\`\`\`
+Image-tools/
+├── Image-tools_v2.1.py  # 主程序文件
+├── models/              # 模型文件
+├── paddleocr/           # PaddleOCR 相关文件
+├── t1.ico               # 程序图标
+├── pyinstaller.txt      # PyInstaller 配置文件
+└── pyinstaller.txt   # 安装依赖库
+└── README.md            # 项目说明文档
 
 ## 依赖项
 - Python 3.10+
