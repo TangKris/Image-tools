@@ -1,9 +1,3 @@
-
-### Bash 脚本输出 `README.md`
-```bash
-#!/bin/bash
-
-cat << 'EOF' > README.md
 # 图片处理工具 v2.1
 
 一个功能强大的图片处理工具，支持图片识别、转换、优化等多种操作。
@@ -131,7 +125,7 @@ Image-tools/
 \`\`\`
 
 ## 依赖项
-- Python 3.8+
+- Python 3.10+
 - PaddleOCR
 - OpenCV
 - PyMuPDF
@@ -153,8 +147,5 @@ Image-tools/
 
 ## 联系方式
 开发者：TangKris (小汤)  
-邮箱：[your_email@example.com]  
+邮箱：[3398458131@example.com]  
 GitHub：[https://github.com/TangKris](https://github.com/TangKris)
-EOF
-
-echo "README.md 文件已生成！"
