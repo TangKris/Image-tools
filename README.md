@@ -37,8 +37,6 @@ cd Image-tools
 pip install -r requirements.txt
 \`\`\`
 
-### 运行
-\`\`\`bash
 # 启动程序
 python Image-tools_v2.1.py
 \`\`\`
